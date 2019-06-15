@@ -1,0 +1,16 @@
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.lead {
+    font-size: 34px;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

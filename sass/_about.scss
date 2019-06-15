@@ -1,0 +1,54 @@
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .lead {
+        font-size: 18px;
+    }
+
+    // MAIN AREA
+    .main-page {
+        h2 {
+            font-size: 56px !important;
+            padding-top: 0 !important;
+        }
+    }
+
+    // ABOUT AREA
+    .skills-section {
+
+        .me {
+            border-bottom: none !important;
+            border-right: 1px solid $second-color;
+        }
+    }
+
+    // Portfolio Area
+    .portfolio-section {
+        .desktop {
+
+            .media {
+                @include hover-shadow;
+                background-color: $second-color !important;
+                border-top-left-radius: 10%;
+                border-top-right-radius: 10%;
+                margin-top: 90px;
+                margin-bottom: 120px;
+                position: relative;
+
+                img {
+                    border-top-left-radius: 10%;
+                }
+
+                &-body {
+                    .btn-card {
+                        background-color: $second-color;
+                        padding: 0 30px 0 30px;
+                        font-size: 28px;
+                        position: absolute;
+                        left: 51%;
+                        bottom: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
