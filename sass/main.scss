@@ -225,6 +225,15 @@ body {
         margin-bottom: 80px;
 
 
+        .mob {
+            color: $second-color-dark;
+            display: block;
+            border: 1px solid $second-color-light;
+            border-radius: 10px;
+            padding: 20px 45px;
+            font-size: 36px;
+        }
+
         .cv {
             color: $second-color-dark;
             padding: 20px 45px;

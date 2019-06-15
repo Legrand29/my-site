@@ -3809,7 +3809,16 @@ a {
       font-size: 28px;
       position: absolute;
       left: 51%;
-      bottom: 5%; } }
+      bottom: 5%; }
+
+  .contact-area .social .mob {
+    padding: 20px 45px;
+    margin: 0;
+    border: none !important;
+    text-shadow: -3px 10px 2px rgba(108, 99, 246, 0.37);
+    transition: all 0.5s ease-in-out 0s; }
+    .contact-area .social .mob:hover {
+      background: whitesmoke; } }
 * {
   margin: 0;
   padding: 0;
@@ -3959,6 +3968,13 @@ body {
   .contact-area .social {
     margin-top: 40px;
     margin-bottom: 80px; }
+    .contact-area .social .mob {
+      color: #6c63ff;
+      display: block;
+      border: 1px solid whitesmoke;
+      border-radius: 10px;
+      padding: 20px 45px;
+      font-size: 36px; }
     .contact-area .social .cv {
       color: #6c63ff;
       padding: 20px 45px;
